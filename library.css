@@ -1,0 +1,50 @@
+/* library section */
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .lib {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content{
+    position: fixed;
+    bottom: 0;
+    background: rgba(11, 11, 11, 0.5)50%;
+    color:black;
+    font-weight: bold;
+    font-family: Algerian;
+    width: 100%;
+    padding: 20px;
+  }
+  .content h1{
+    color: rgb(81, 7, 7);
+    font-weight: bold;
+  }
+ #myBtn {
+    width: 200px;
+    font-size: 18px;
+    font-family: algerian;
+    padding: 10px;
+    border: none;
+    background:rgb(81, 7, 7);
+    color:black;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background:white;
+    color: rgb(81, 7, 7);
+  }
+/* library end */
+
