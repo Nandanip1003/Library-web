@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: algerian;
+}
+
+.course{
+    /* background-color:rgb(77, 19, 20); */
+    background: linear-gradient(to top, rgba(255,255,255,0.6));
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    color: white;
+    /* color: aliceblue; */
+    text-align: center;
+    width: 50vw;
+    height: 270vh;
+    border: 5px solid black;
+    border-radius: 7px;
+    margin: 5% 25% 5% 25%;
+    /* margin-bottom: ; */
+}
+.nav1 {
+
+    width: 100%;
+    height: 5vh;
+    color: white;
+    background: rgb(81, 7, 7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1{
+    margin: 0 8px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color:black;
+    padding: 5px 10px;
+    background:white;
+    border-radius: 25px;
+}
+.nav1 a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color:orange;
+    /* border:2px solid rgb(29,100,94); */
+    border-radius: 25px;
+}
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    padding:0px 5px;
+
+}
+.menu a:hover{
+background-color:rgb(81,7,7);
+border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 20vw;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 5px 0 25px;
+    padding: 0 1px;
+}
+
+.search button {
+    font-family: algerian;
+    background:rgb(81, 7, 7);
+    color: black;
+    text-decoration: none;
+    border:2px solid transparent ;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: .1s;
+}
+.search button:hover{
+    background: transparent;
+    border: 2px solid rgb(81, 7, 7);
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.3)80%,rgb(81,7,7)) ,url(css/3133075.jpg);
+    background-size: 100%  100%;
+}
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h-text h1{
+    font-size: 3em;
+    color: white;
+    font-family: 'Dancing Script', cursive; 
+
+}
+.h-text span{
+    color: rgb(255, 165, 0);
+    font-family: 'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: rgba(156, 8, 33, 0.866);
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+.h-text a:hover{
+    background: transparent;
+    border: 2px solid rgb(238, 230, 230);
+    cursor: pointer;
+}
+

@@ -1,0 +1,95 @@
+
+
+.login-container {
+    background: linear-gradient(to top, rgba(205, 206, 189, 0.5)50%, rgba(205, 206, 189, 0.5)50%), url(l.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 110vh;
+    font-family: algerian;
+}
+
+/* header{
+    color: rgb(81, 7, 7);
+    font-weight: bold;
+    font-size: 50px;
+    font-family: algerian;
+    text-align: center;
+    padding: 10px 0 30px 0;
+} */
+
+.input-field {
+    font-size: 15px;
+    font-family: algerian;
+    background: #27272766;
+    color: #fff;
+    height: 50px;
+    width: 445px;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+      
+}
+::placeholder {
+    color: black;
+    opacity: 1; 
+  }
+.submit {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: algerian;
+    color: black;
+    height: 45px;
+    width: 500px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgb(81, 7, 7);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.top span {
+    color: rgb(63, 8, 8);
+    font-size: large;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.top span a {
+    font-weight: 500;
+    color: rgb(75, 12, 12);
+    margin-left: 5px;
+}
+
+.register-container {
+    font-family: algerian;
+    text-align: center;
+    
+}
+
+.submit:hover {
+    background: transparent;
+    border: 2px solid rgb(81, 7, 7);
+    cursor: pointer;
+}
+
+.two {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.extra {
+    text-align: center;
+}
