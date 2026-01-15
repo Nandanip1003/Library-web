@@ -1,0 +1,69 @@
+/* about section  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, rgba(205, 206, 189, 0.5)50%, rgba(205, 206, 189, 0.5)50%), url(clglib1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial {
+    padding: 30px 100px;
+}
+
+.about_text h1 {
+    color:rgb(81, 7, 7);
+    font-family: 'Cooper Black';
+    font-weight: 800px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.about_text h3 {
+    color:rgb(81, 7, 7);
+    font-family: 'Algerian';
+    font-weight:bold;
+    font-size: 36px;
+    text-transform: uppercase;
+
+}
+.about_text p{
+    color:black;
+    font-family: 'High Tower Text';
+    font-size: 25px;
+    font-weight:700;
+    margin-top: 30px;
+}
+.about_text h5{
+    color:black;
+    font-family: 'High Tower Text';
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+button{
+    background:rgb(81, 7, 7);
+    color: black;
+    text-decoration: none;
+    border:2px solid transparent ;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid rgb(81, 7, 7);
+    cursor: pointer;
+}
+/* about end */
+
